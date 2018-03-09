@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF5252</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="myRedColor">#FF1100</color>
+    <color name="white">#FFFFFF</color>
+    <color name="materialBlue_50">#E3F2FD</color>
+    <color name="materialBlue_100">#BBDEFB</color>
+    <color name="materialBlue_200">#90CAF9</color>
+    <color name="materialBlue_300">#64B5F6</color>
+    <color name="materialBlue_400">#42A5F5</color>
+    <color name="materialBlue_500">#2196F3</color>
+    <color name="materialBlue_600">#1E88E5</color>
+    <color name="materialBlue_700">#1976D2</color>
+    <color name="materialBlue_800">#1565C0</color>
+    <color name="materialBlue_900">#0D47A1</color>
+    <color name="materialBlue_A100">#82B1FF</color>
+    <color name="materialBlue_A200">#448AFF</color>
+    <color name="materialBlue_A400">#2979FF</color>
+    <color name="materialBlue_A700">#2962FF</color>
+</resources>
