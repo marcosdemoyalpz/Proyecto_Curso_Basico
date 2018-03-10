@@ -16,11 +16,24 @@
         android:orientation="vertical"
         android:padding="20dp">
 
+        <ImageView
+            android:id="@+id/mainImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_event_black_192dp" />
+
         <Button
             android:id="@+id/interval_activity_button"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date_range_white_18dp"
             android:text="@string/title_intervalos"
             android:textAllCaps="false" />
 
@@ -29,6 +42,7 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_next_week_white_18dp"
             android:text="@string/title_futuro"
             android:textAllCaps="false" />
 
@@ -37,6 +51,7 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_history_white_18dp"
             android:text="@string/title_pasado"
             android:textAllCaps="false" />
 
@@ -45,6 +60,7 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_cake_white_18dp"
             android:text="@string/title_edades"
             android:textAllCaps="false" />
 
