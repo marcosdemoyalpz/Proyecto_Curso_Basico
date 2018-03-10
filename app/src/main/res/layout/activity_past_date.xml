@@ -52,7 +52,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="@string/daysToAddLabel" />
+                android:text="@string/daysToSubtractLabel" />
 
         </TableRow>
 
@@ -62,7 +62,7 @@
             android:padding="0dp">
 
             <EditText
-                android:id="@+id/daysToAdd"
+                android:id="@+id/daysToSubtract"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"

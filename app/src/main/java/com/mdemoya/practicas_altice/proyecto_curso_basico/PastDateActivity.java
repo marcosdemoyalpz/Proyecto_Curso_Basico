@@ -25,7 +25,7 @@ public class PastDateActivity extends AppCompatActivity implements View.OnClickL
         DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener {
 
     Button datePickerPasadoFromButton;
-    EditText daysToAdd;
+    EditText daysToSubtract;
     int days = 0;
 
     public Calendar dateFrom = Calendar.getInstance();
@@ -38,7 +38,7 @@ public class PastDateActivity extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.activity_past_date);
 
         datePickerPasadoFromButton = findViewById(R.id.datePickerPasadoButton);
-        daysToAdd = findViewById(R.id.daysToAdd);
+        daysToSubtract = findViewById(R.id.daysToSubtract);
 
         findViewById(R.id.calcular_pasado_button).setOnClickListener(this);
 
@@ -55,7 +55,7 @@ public class PastDateActivity extends AppCompatActivity implements View.OnClickL
             datePickerDialog.show();
         });
 
-        daysToAdd.setOnKeyListener((v, keyCode, event) -> {
+        daysToSubtract.setOnKeyListener((v, keyCode, event) -> {
             if (event.getAction() == KeyEvent.ACTION_DOWN) {
                 switch (keyCode) {
                     case KeyEvent.KEYCODE_DPAD_CENTER:
@@ -95,17 +95,17 @@ public class PastDateActivity extends AppCompatActivity implements View.OnClickL
 
     private int GetDays() {
         try {
-            String strDays = daysToAdd.getText().toString();
+            String strDays = daysToSubtract.getText().toString();
             if (strDays != null) {
                 if (parseInt(strDays) == 0) {
-                    daysToAdd.setText("");
+                    daysToSubtract.setText("");
                 }
                 return Math.abs(parseInt(strDays));
             }
-            daysToAdd.setText("");
+            daysToSubtract.setText("");
             return 0;
         } catch (NumberFormatException e) {
-            daysToAdd.setText("");
+            daysToSubtract.setText("");
             return 0;
         }
     }
