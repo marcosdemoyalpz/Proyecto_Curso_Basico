@@ -7,6 +7,17 @@
     <string name="history_btn_text">Historial</string>
     <string name="fecha_hasta">Fecha hasta:</string>
     <string name="fecha_desde">Fecha desde:</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="defaultResultTime">0</string>
+    <string name="hoursSuffix">horas</string>
+    <string name="daysSuffix">días</string>
+    <string name="weeksSuffix">semanas</string>
+    <string name="yearsSuffix">años</string>
+    <string name="nacimientoLabel">Fecha de nacimiento:</string>
+    <string name="monthsSuffix">meses</string>
+    <string name="minutesSuffix">minutos</string>
+    <string name="secondsSuffix">segundos</string>
     <string-array name="mode_selector_array">
         <item>Calcular intervalo de tiempo</item>
         <item>Calcular tiempo futuro</item>
