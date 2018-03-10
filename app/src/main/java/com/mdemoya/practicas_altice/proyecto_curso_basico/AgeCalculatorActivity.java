@@ -85,6 +85,7 @@ public class AgeCalculatorActivity extends AppCompatActivity implements View.OnC
 
         int edad = currentYear - nacimientoYear;
 
+        // snippet obtenido de https://www.quickprogrammingtips.com/java/how-to-calculate-age-from-date-of-birth-in-java.html
         // if dob is month or day is behind today's month or day
         // reduce age by 1
         int curMonth = today.get(Calendar.MONTH);
@@ -94,7 +95,7 @@ public class AgeCalculatorActivity extends AppCompatActivity implements View.OnC
         } else if (dobMonth == curMonth) { // same month? check for day
             int curDay = today.get(Calendar.DAY_OF_MONTH);
             int dobDay = nacimiento.get(Calendar.DAY_OF_MONTH);
-            if (dobDay > curDay) { // this year can't be counted!
+            if (dobDay > curDay) {
                 edad--;
             }
         }
