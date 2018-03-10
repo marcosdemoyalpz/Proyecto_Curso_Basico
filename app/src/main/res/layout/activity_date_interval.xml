@@ -38,7 +38,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:gravity="left|center_vertical"
-                android:text="01/January/0001" />
+                android:text="01/January/0001"
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/timePickerIntervalFromButton"
@@ -47,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="left|center_vertical"
-                android:text="00:00 AM" />
+                android:text="00:00 AM"
+                android:textAllCaps="false" />
         </TableRow>
 
         <TableRow
@@ -75,7 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:gravity="left|center_vertical"
-                android:text="01/January/0001" />
+                android:text="01/January/0001"
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/timePickerIntervalToButton"
@@ -84,7 +87,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="left|center_vertical"
-                android:text="00:00 AM" />
+                android:text="00:00 AM"
+                android:textAllCaps="false" />
         </TableRow>
 
         <TableRow

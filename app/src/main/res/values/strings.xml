@@ -18,6 +18,10 @@
     <string name="monthsSuffix">meses</string>
     <string name="minutesSuffix">minutos</string>
     <string name="secondsSuffix">segundos</string>
+    <string name="futuroLabel">Fecha inicial:</string>
+    <string name="daysToAddLabel">Días a sumar:</string>
+    <string name="daysToSubtractLabel">Días a restar:</string>
+    <string name="pasadoLabel">Fecha inicial:</string>
     <string-array name="mode_selector_array">
         <item>Calcular intervalo de tiempo</item>
         <item>Calcular tiempo futuro</item>

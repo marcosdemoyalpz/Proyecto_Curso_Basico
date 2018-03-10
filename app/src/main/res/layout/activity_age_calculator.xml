@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:gravity="left|center_vertical"
+                android:textAllCaps="false"
                 android:text="01/January/0001" />
         </TableRow>
 

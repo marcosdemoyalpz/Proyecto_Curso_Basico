@@ -24,7 +24,7 @@ public class DateIntervalActivity extends AppCompatActivity implements View.OnCl
     int hoursFrom, hoursTo, minutesFrom, minutesTo = 0;
     boolean isDateFrom = true;
     public Calendar currentDate, dateFrom, dateTo = Calendar.getInstance();
-    public SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MMMM/yyyy", Locale.US);
+    public SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MMMM/yyyy", new Locale("es", "ES"));
     public SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm a", Locale.US);
 
     @Override

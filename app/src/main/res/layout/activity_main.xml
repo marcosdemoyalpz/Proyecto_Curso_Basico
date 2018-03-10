@@ -18,27 +18,35 @@
 
         <Button
             android:id="@+id/interval_activity_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_intervalos" />
+            android:text="@string/title_intervalos"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/future_activity_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_futuro" />
+            android:text="@string/title_futuro"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/past_activity_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_pasado" />
+            android:text="@string/title_pasado"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/age_activity_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_edades" />
+            android:text="@string/title_edades"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 

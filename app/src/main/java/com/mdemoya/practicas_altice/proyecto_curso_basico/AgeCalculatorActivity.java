@@ -27,7 +27,7 @@ public class AgeCalculatorActivity extends AppCompatActivity implements View.OnC
     Button datePickerNacimientoFromButton;
 
     public Calendar dateFrom = Calendar.getInstance();
-    public SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MMMM/yyyy", Locale.US);
+    public SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MMMM/yyyy", new Locale("es", "ES"));
     public SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm a", Locale.US);
 
     @Override
