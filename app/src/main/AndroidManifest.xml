@@ -12,7 +12,6 @@
         <activity
             android:name=".SplashActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +19,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".DateCalculatorActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/history_btn_text"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DateIntervalActivity"
+            android:label="@string/title_intervalos"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FutureDateActivity"
+            android:label="@string/title_futuro"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastDateActivity"
+            android:label="@string/title_pasado"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AgeCalculatorActivity"
+            android:label="@string/title_edades"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

@@ -1,35 +1,30 @@
 package com.mdemoya.practicas_altice.proyecto_curso_basico;
 
 import android.app.DatePickerDialog;
-import android.app.Fragment;
 import android.app.TimePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.TextView;
 import android.widget.TimePicker;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
-public class DateCalculatorActivity extends AppCompatActivity
+public class DateIntervalActivity extends AppCompatActivity
         implements DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener {
 
-    private TextView dateTextView;
-    private TextView timeTextView;
+    Button datePickerButton;
+    Button timePickerButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_date_calculator);
+        setContentView(R.layout.activity_date_interval);
 
-        dateTextView = findViewById(R.id.dateTextView);
-        timeTextView = findViewById(R.id.timeTextView);
-
-        Button datePickerButton = findViewById(R.id.datePickerButton);
-        Button timePickerButton = findViewById(R.id.timePickerButton);
+        datePickerButton = findViewById(R.id.datePickerIntervalFromButton);
+        timePickerButton = findViewById(R.id.timePickerIntervalFromButton);
 
         datePickerButton.setOnClickListener(v -> {
             DatePickerDialog datePickerDialog =
@@ -61,7 +56,7 @@ public class DateCalculatorActivity extends AppCompatActivity
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MMMM/yyyy",
                 Locale.US);
-        dateTextView.setText(dateFormat.format(calendar.getTime()));
+        datePickerButton.setText(dateFormat.format(calendar.getTime()));
     }
 
     @Override
@@ -72,6 +67,6 @@ public class DateCalculatorActivity extends AppCompatActivity
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("hh:mm a",
                 Locale.US);
-        timeTextView.setText(dateFormat.format(calendar.getTime()));
+        timePickerButton.setText(dateFormat.format(calendar.getTime()));
     }
 }

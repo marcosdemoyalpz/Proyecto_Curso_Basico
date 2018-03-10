@@ -1,6 +1,16 @@
 <resources>
-    <string name="app_name">Proyecto Curso Basico</string>
-    <string name="title_fechas">Home</string>
-    <string name="title_edades">Dashboard</string>
-    <string name="history_btn_text">History</string>
+    <string name="app_name">Calculadora de Fechas</string>
+    <string name="title_intervalos">Calcular intervalo de tiempo</string>
+    <string name="title_futuro">Calcular tiempo futuro</string>
+    <string name="title_pasado">Calcular tiempo pasado</string>
+    <string name="title_edades">Calcular edad</string>
+    <string name="history_btn_text">Historial</string>
+    <string name="fecha_hasta">Fecha hasta:</string>
+    <string name="fecha_desde">Fecha desde:</string>
+    <string-array name="mode_selector_array">
+        <item>Calcular intervalo de tiempo</item>
+        <item>Calcular tiempo futuro</item>
+        <item>Calcular tiempo pasado</item>
+        <item>Calcular edad</item>
+    </string-array>
 </resources>
